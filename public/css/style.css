@@ -552,32 +552,6 @@ section{
         flex-direction: column;
         align-items: center;
     }
-
-
-
-
-
-
-            /* Imagen Descripcion oculta por defecto */
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
 }
 
 
@@ -658,6 +632,32 @@ section{
         font-size: 5.4rem;
     }
 
+
+
+
+        /* Imagen Descripcion oculta por defecto */
+    .descripcion-box .imagen-descripcion {
+        display: block;
+    }
+
+
+    .descripcion-box .imagen-descripcion {
+        opacity: 1; /* Asegura que la imagen descripcion sea visible */
+        width: 90%; /* Ancho de la imagen dentro del cuadro */
+        height: auto; /* Mantiene la proporción de la imagen */
+        display: block; /* Asegura que las imágenes se comporten como bloques */
+        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
+    }
+
+
+
+    .descripcion-box{
+        width: auto;
+        height: auto;
+    }
+
+
+
 }
 
 
@@ -728,6 +728,7 @@ section{
     }
 
 
+
 }
 
 
@@ -737,6 +738,11 @@ section{
 
 
 @media (max-width: 768px) {
+
+
+
+
+
     #menu-icon{
         display: block;
     }
@@ -860,27 +866,10 @@ section{
 
 
 
-    /* ------------------------------------------------------------------------- */
-        /* Imagen Descripción oculta por defecto */
-    .descripcion-box .imagen-descripcion {
-        display: none;
-    }
 
-    /* Clase que se activa al hacer clic */
-    .descripcion-box.active .imagen-descripcion {
-        display: block; /* Muestra la imagen descripción cuando la clase está activa */
-        opacity: 1;
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
 
-    /* Oculta el párrafo cuando la clase está activa */
-    .descripcion-box.active p {
-        display: none; /* Oculta el párrafo cuando la clase está activa */
-    }
 
-/* ------------------------------------------------------------------------- */
+
 
 
 
@@ -1274,6 +1263,7 @@ section{
     margin-top: 2rem;
     cursor: pointer;
 }
+
 
 
 
