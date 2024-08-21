@@ -407,6 +407,17 @@ section{
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.servicios h4 a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Usa el mismo color del texto del <h4> */
+    background: none; /* Elimina cualquier fondo aplicado al enlace */
+    padding: 0; /* Elimina cualquier relleno */
+    border: none; /* Elimina cualquier borde */
+    align-self: flex-end; 
+    width: 100%;
+}
+
+
 
 
 
