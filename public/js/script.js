@@ -57,4 +57,25 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin:'top' });
 
-/*==================== typed js ====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.querySelectorAll('.descripcion-box').forEach(box => {
+    box.addEventListener('click', () => {
+        box.classList.toggle('active'); // Alterna la clase 'active' al hacer clic
+    });
+});
