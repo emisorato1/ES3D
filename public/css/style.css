@@ -634,6 +634,8 @@ section{
 
 
 
+
+        /* Imagen Descripcion oculta por defecto */
     .descripcion-box .imagen-descripcion {
         display: block;
     }
@@ -858,42 +860,12 @@ section{
 
 
 
-
-
-
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
 
 
 
@@ -904,35 +876,7 @@ section{
     .separador .heading{
         margin-top: -90rem;
     }
-
-
-
-
-
-
-
-
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
-
-
+    
 }
 
 
@@ -941,30 +885,6 @@ section{
     .servicios-container{
         grid-template-columns: 1fr;
     }
-
-
-
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
-
-
 
 
     
@@ -985,30 +905,6 @@ section{
     .logo-img {
         max-width: 60px;
     }
-
-
-
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
-
-
 }
 
 
@@ -1029,29 +925,6 @@ section{
         text-align: center;
         margin-top: 2rem;
     }
-
-
-    .descripcion-box .imagen-descripcion {
-        display: block;
-    }
-
-
-    .descripcion-box .imagen-descripcion {
-        opacity: 1; /* Asegura que la imagen descripcion sea visible */
-        width: 90%; /* Ancho de la imagen dentro del cuadro */
-        height: auto; /* Mantiene la proporción de la imagen */
-        display: block; /* Asegura que las imágenes se comporten como bloques */
-        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
-    }
-
-
-
-    .descripcion-box{
-        width: auto;
-        height: auto;
-    }
-
-
 }
 
 
@@ -1083,6 +956,9 @@ section{
 .separador_dis .heading{
     margin-top: 9rem;
 }
+
+
+
 
 
 .diseño-img img{
@@ -1353,36 +1229,6 @@ section{
 }
 
 
-@media screen and (max-height: 820px){
-    .separador_dis .heading{
-        margin-top: 0rem;
-    }
-    .separador_des .heading{
-        margin-top: 0rem;
-    }
-    .separador_figuras .heading{
-        margin-top: 0rem;
-    }
-    .separador_maq .heading{
-        margin-top: 0rem;
-    }
-    .separador_mol .heading{
-        margin-top: 0rem;
-    }
-    .separador_muchomas .heading{
-        margin-top: 0rem;
-    }
-    .separador_piezas .heading{
-        margin-top: 0rem;
-    }
-    .separador_prot .heading{
-        margin-top: 0rem;
-    }
-    .separador_rem .heading{
-        margin-top: 0rem;
-    }
-
-}
 
 
 
@@ -1415,8 +1261,33 @@ section{
 
 
 
+@media screen and (max-height: 820px){
+    .separador_dis .heading{
+        margin-top: 0rem;
+    }
+    .separador_des .heading{
+        margin-top: 0rem;
+    }
+    .separador_figuras .heading{
+        margin-top: 0rem;
+    }
+    .separador_maq .heading{
+        margin-top: 0rem;
+    }
+    .separador_mol .heading{
+        margin-top: 0rem;
+    }
+    .separador_muchomas .heading{
+        margin-top: 0rem;
+    }
+    .separador_piezas .heading{
+        margin-top: 0rem;
+    }
+    .separador_prot .heading{
+        margin-top: 0rem;
+    }
+    .separador_rem .heading{
+        margin-top: 0rem;
+    }
 
-
-
-
-
+}
