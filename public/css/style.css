@@ -552,6 +552,32 @@ section{
         flex-direction: column;
         align-items: center;
     }
+
+
+
+
+
+
+            /* Imagen Descripcion oculta por defecto */
+    .descripcion-box .imagen-descripcion {
+        display: block;
+    }
+
+
+    .descripcion-box .imagen-descripcion {
+        opacity: 1; /* Asegura que la imagen descripcion sea visible */
+        width: 90%; /* Ancho de la imagen dentro del cuadro */
+        height: auto; /* Mantiene la proporción de la imagen */
+        display: block; /* Asegura que las imágenes se comporten como bloques */
+        margin: 0 auto; /* Centra las imágenes dentro del cuadro */
+    }
+
+
+
+    .descripcion-box{
+        width: auto;
+        height: auto;
+    }
 }
 
 
