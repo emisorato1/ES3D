@@ -631,27 +631,6 @@ section{
     .nosotros h2{
         font-size: 5.4rem;
     }
-/* ------------------------------------------------------------------------- */
-        /* Imagen Descripción oculta por defecto */
-    .descripcion-box .imagen-descripcion {
-        display: none;
-    }
-
-    /* Clase que se activa al hacer clic */
-    .descripcion-box.active .imagen-descripcion {
-        display: block; /* Muestra la imagen descripción cuando la clase está activa */
-        opacity: 1;
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    /* Oculta el párrafo cuando la clase está activa */
-    .descripcion-box.active p {
-        display: none; /* Oculta el párrafo cuando la clase está activa */
-    }
-
-/* ------------------------------------------------------------------------- */
 
 }
 
@@ -846,6 +825,37 @@ section{
     .servicios-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+
+
+
+
+
+
+
+    /* ------------------------------------------------------------------------- */
+        /* Imagen Descripción oculta por defecto */
+    .descripcion-box .imagen-descripcion {
+        display: none;
+    }
+
+    /* Clase que se activa al hacer clic */
+    .descripcion-box.active .imagen-descripcion {
+        display: block; /* Muestra la imagen descripción cuando la clase está activa */
+        opacity: 1;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Oculta el párrafo cuando la clase está activa */
+    .descripcion-box.active p {
+        display: none; /* Oculta el párrafo cuando la clase está activa */
+    }
+
+/* ------------------------------------------------------------------------- */
+
 
 
 
