@@ -1353,6 +1353,36 @@ section{
 }
 
 
+@media screen and (max-height: 820px){
+    .separador_dis .heading{
+        margin-top: 0rem;
+    }
+    .separador_des .heading{
+        margin-top: 0rem;
+    }
+    .separador_figuras .heading{
+        margin-top: 0rem;
+    }
+    .separador_maq .heading{
+        margin-top: 0rem;
+    }
+    .separador_mol .heading{
+        margin-top: 0rem;
+    }
+    .separador_muchomas .heading{
+        margin-top: 0rem;
+    }
+    .separador_piezas .heading{
+        margin-top: 0rem;
+    }
+    .separador_prot .heading{
+        margin-top: 0rem;
+    }
+    .separador_rem .heading{
+        margin-top: 0rem;
+    }
+
+}
 
 
 
